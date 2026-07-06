@@ -97,7 +97,7 @@ function CreateOrder() {
             {isSubmitting ? 'Placing order....' : 'Order now'}
           </Button>
         </div>
-      </Form>
+      </form>
     </div>
   );
 }
