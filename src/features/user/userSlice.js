@@ -19,18 +19,23 @@
 //   // 3) Then we return an object with the data that we are interested in
 //   return { position, address };
 // }
+import {createSlice} from "@reduxjs/toolkit";
+
 const initialState ={
-  username: '',
+  username: 'Jai',
 
 };
 const userSlice = createSlice({
   name: 'user',
   initialState,
   reducers:{
-    updateName(sate,action){
-      StaticRange.username = action.payload
+    updateName(state,action){
+      state.username = action.payload
     }
   }
 });
+
+export const {updateName} = userSlice.actions;
+export default userSlice.reducer;
 
 
