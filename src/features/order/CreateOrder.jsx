@@ -91,7 +91,11 @@ function CreateOrder() {
               <Button
                 disabled={isLoadingAddress}
                 type="small"
-                
+                onClick={(e)=>{
+                  e.preventDefault();
+                  dispatch(fetchAddress());
+
+                }}
               >
                 Get position
               </Button>
