@@ -29,6 +29,12 @@ A fast, minimal pizza ordering web app built with React. Browse the menu, add pi
 
 <img width="1295" height="652" alt="Screenshot From 2026-07-07 06-27-03" src="https://github.com/user-attachments/assets/cad5f6e3-04ea-4f82-b3ba-398ae1743a93" />
 
+### Order Status
+![Order page where you enter Delivery details with Geolocate functionality for your address]
+
+<img width="1295" height="652" alt="Screenshot From 2026-07-07 06-58-02" src="https://github.com/user-attachments/assets/af41db1f-16f8-417c-af92-df6b74a54fe8" />
+
+
 
 ### Order Status
 
